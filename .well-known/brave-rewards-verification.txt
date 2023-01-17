@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cornmonger.github.io
+Token: 820bc0cb59c61861889a6c42c2b0974dd5bfb3b2c1032fdcef7e525550395a64
