@@ -1,6 +1,6 @@
 # Summary
 
 - [Site](./site.md)
- - [Log](./log.md)
+- [Log](./log.md)
   - [mdBook is Up](./log--mdbook-is-up.md)
- - [projects](./projects.md)
+- [Projects](./projects.md)
