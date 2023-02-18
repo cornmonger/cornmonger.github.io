@@ -1,7 +1,9 @@
-# cornmonger's site
+
+# &nbsp;
 
 Welcome to my site!
 
-- [Log](./log.md)
-  - [mdBook is Up](./log--mdbook-is-up.md)
-- [Projects](./projects.md)
+
+## mdBook is Online  
+
+I've configured GitHub Pages to point to an mdBook installation, which now powers this little website. Pretty easy setup!
