@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cornmonger.fish
+Token: f52099d859e01280a06930ebc21342e8a12ca7920e729f0be1ce23677b5b8f0b
