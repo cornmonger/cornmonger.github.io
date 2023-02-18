@@ -1,4 +1,6 @@
-# Summary
+# cornmonger's site
+
+Welcome to my site!
 
 - [Site](./site.md)
  - [Log](./log.md)
