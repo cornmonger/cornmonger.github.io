@@ -7,7 +7,7 @@ Welcome to my site!
 
 One of the projects that I'm building is designed around [Git](https://git-scm.com). Recently, I've began studying [Git internals](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain) and drafting out use cases with [Rust's git crate](https://github.com/rust-lang/git2-rs).
 
-One thing that I wasn't aware of is that there are manpage tutorials for Git: ```man gittutorial``` and ```man gittuorial-2``` are available on the commandline and they're very good introductions to general use and internals respectively.
+One thing that I wasn't aware of is that there are manpage tutorials for Git: ```man gittutorial``` and ```man gittutorial-2``` are available on the commandline and they're very good introductions to general use and internals respectively.
 
 ## &#128212; mdBook is Online  
 
