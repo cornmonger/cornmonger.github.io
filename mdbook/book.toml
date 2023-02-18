@@ -11,3 +11,7 @@ default-theme="coal"
 preferred-dark-theme="coal"
 no-section-label=true
 cname="cornmonger.fish"
+git-repository-url = "https://github.com/cornmonger"
+
+[rust]
+edition="2021"
