@@ -10,3 +10,4 @@ description = "cornmonger's personal website"
 default-theme="coal"
 preferred-dark-theme="coal"
 no-section-label=true
+cname="cornmonger.fish"
