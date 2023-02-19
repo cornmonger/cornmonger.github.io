@@ -8,7 +8,7 @@ Welcome to my site!
 Here's a one-liner [bash](https://www.gnu.org/software/bash/manual/html_node/index.html) function that will output the same [SHA1 hash](https://man7.org/linux/man-pages/man1/sha1sum.1.html) that [git hash-object](https://git-scm.com/docs/git-hash-object) outputs for a file:
 
 ```bash
-function git_hashobject () { echo -e "blob $(wc -m $1 | awk '{print $1}')\0$(cat $1)" | sha1sum | awk '{print $1}'; }
+function git_hashobject { echo -e "blob $(wc -m $1 | awk '{print $1}')\0$(cat $1)" | sha1sum | awk '{print $1}'; }
 ```
 
 Example usage:

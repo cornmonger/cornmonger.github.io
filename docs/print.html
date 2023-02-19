@@ -149,7 +149,7 @@
 <p>Welcome to my site!</p>
 <h2 id="-bash-emulate-gits-hash-object-output"><a class="header" href="#-bash-emulate-gits-hash-object-output">⌨️ Bash: Emulate Git's Hash-Object Output</a></h2>
 <p>Here's a one-liner <a href="https://www.gnu.org/software/bash/manual/html_node/index.html">bash</a> function that will output the same <a href="https://man7.org/linux/man-pages/man1/sha1sum.1.html">SHA1 hash</a> that <a href="https://git-scm.com/docs/git-hash-object">git hash-object</a> outputs for a file:</p>
-<pre><code class="language-bash">function git_hashobject () { echo -e &quot;blob $(wc -m $1 | awk '{print $1}')\0$(cat $1)&quot; | sha1sum | awk '{print $1}'; }
+<pre><code class="language-bash">function git_hashobject { echo -e &quot;blob $(wc -m $1 | awk '{print $1}')\0$(cat $1)&quot; | sha1sum | awk '{print $1}'; }
 </code></pre>
 <p>Example usage:</p>
 <pre><code>$  echo 'hello world!' &gt; hello.txt
