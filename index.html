@@ -24,6 +24,26 @@ div#copyright { font-size: 0.6rem; margin-top: 2rem;}
 <div id="container">
 <h1>cornmonger's site</h1>
 
+<h2>steamdeck good for homebrew</h2>
+<p>i followed a <a href="https://github.com/denis-g/steam-deck-optimization-guide">steam deck optimization guide</a> this
+weekend. i played with different setups and generally scrutinized the product.</p>
+<p>firstly, it nails what it's primarily trying to do:<br/>be a handheld pc game system</p>
+<p>it allows for docking with a tv, but it's not powerful enough to replace your xbox or your playstation. it's not going to
+replace your desktop or laptop either. i probably won't use it docked any further.</p>
+<p>its ability to switch back and forth between desktop mode (kde plasma) and gaming mode works nicely. desktop mode acts
+as a power-user overflow valve: it's where all of your customizations and tweaks happen.</p>
+<p>distributing for the steam deck locally was extremely simple:<ol>
+<li><pre>scp myapp steamdeck.local:~/mybrew</pre></li>
+<li><pre>ssh steamdeck.local steam-os-add-to-steam ~/mybrew/myapp</pre></li></ol></p>
+<p>after that, it's available from the "non-steam games" category. you don't even have to drop into desktop mode.</p>
+<p>the steam deck ran a <a href="https://bevyengine.org">bevy</a> game and a <a href="https://tauri.app">tauri</a> v2 app
+without any tweaks. to ship the tauri app, use the <a href="https://tauri.app/v1/guides/building/linux/#appimage">AppImage</a>
+created by the tauri build command.
+<p>back to its gaming features ...</p>
+<p>the games that are going to work the best for it are those built with a gamepad in mind.</p>
+<p>that being said, if you're willing to mess around with controller settings for a game (which is easy to do via steam input),
+a lot seems to be possible.</p>
+
 <h2>no tabs for helix</h2>
 <p>it looks like the <a href="https://helix-editor.com">helix</a> developers are not keen on implementing something similar to <a href="https://neovim.io">vim's</a> tab feature.</p>
 <p>someone on github even <a href="https://github.com/helix-editor/helix/pull/7109">submitted an implementation</a>. apparently, the team shelved it:</p>
