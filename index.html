@@ -34,7 +34,7 @@ replace your desktop or laptop either. i probably won't use it docked any furthe
 as a power-user overflow valve: it's where all of your customizations and tweaks happen.</p>
 <p>distributing for the steam deck locally was extremely simple:<ol>
 <li><pre>scp myapp steamdeck.local:~/mybrew</pre></li>
-<li><pre>ssh steamdeck.local steam-os-add-to-steam ~/mybrew/myapp</pre></li></ol></p>
+<li><pre>ssh steamdeck.local 'steam-os-add-to-steam ~/mybrew/myapp'</pre></li></ol></p>
 <p>after that, it's available from the "non-steam games" category. you don't even have to drop into desktop mode.</p>
 <p>the steam deck ran a <a href="https://bevyengine.org">bevy</a> game and a <a href="https://tauri.app">tauri</a> v2 app
 without any tweaks. to ship the tauri app, use the <a href="https://tauri.app/v1/guides/building/linux/#appimage">AppImage</a>
